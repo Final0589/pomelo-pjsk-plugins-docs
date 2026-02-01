@@ -26,7 +26,6 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      // 【建议】改为你自己的仓库地址
       { icon: 'github', link: 'https://github.com/YourUsername/pomelo-pjsk-plugins-docs' }
     ]
   }

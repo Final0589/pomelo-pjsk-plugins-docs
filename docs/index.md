@@ -7,11 +7,11 @@ hero:
   text: ""
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 使用帮助
+      link: /help
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 部署教程
+      link: /deploy
 
 ---
 

@@ -1,16 +1,15 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/pomelo-pjsk-plugins-docs/',
 
   title: "帮助文档",
   description: "For pomelo-pjsk-plugins",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '示例', link: '/markdown-examples' }
+      { text: '部署教程', link: '/deploy' },
+      { text: '使用帮助', link: '/help' }
     ],
 
     sidebar: [

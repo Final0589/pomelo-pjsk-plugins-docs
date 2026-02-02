@@ -2,7 +2,12 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/pomelo-pjsk-plugins-docs/',
-
+  markdown: {
+    image: {
+      // 默认禁用；设置为 true 可为所有图片启用懒加载。
+      lazyLoading: true
+    }
+  },
   title: "帮助文档",
   description: "For pomelo-pjsk-plugins",
   themeConfig: {

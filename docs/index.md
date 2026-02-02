@@ -8,13 +8,13 @@ hero:
   actions:
     - theme: alt
       text: 抓包教程
-      link: /capture
+      link: /capture/ios
     - theme: alt
       text: 部署教程
-      link: /deploy
+      link: /deploy/server
     - theme: brand
       text: 使用帮助
-      link: /help
+      link: /help/bind
 
 ---
 

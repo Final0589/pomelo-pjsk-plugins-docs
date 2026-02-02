@@ -17,23 +17,23 @@ export default defineConfig({
       {
         text: '抓包教程',
         items: [
-          { text: 'IOS抓包教程', link: '/capture_ios' },
-          { text: 'IOS模块抓包教程', link: '/capture_module' },
-          { text: '安卓模拟器抓包教程', link: '/capture_simulator' }
+          { text: 'IOS抓包教程', link: '/capture/ios' },
+          { text: 'IOS模块抓包教程', link: '/capture/module' },
+          { text: '安卓模拟器抓包教程', link: '/capture/simulator' }
 
         ]
       },
       {
         text: '部署教程',
         items: [
-          { text: '部署到服务器', link: '/deploy_server' },
-          { text: '部署到本地', link: '/deploy_local' }
+          { text: '部署到服务器', link: '/deploy/server' },
+          { text: '部署到本地', link: '/deploy/local' }
         ]
       },
       {
         text: '使用帮助',
         items: [
-          { text: '使用帮助', link: '/help' }
+          { text: '使用帮助', link: '/help/bind' }
         ]
       }
     ]

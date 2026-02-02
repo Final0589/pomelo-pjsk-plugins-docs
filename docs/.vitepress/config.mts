@@ -8,9 +8,9 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '抓包教程', link: '/capture' },
-      { text: '部署教程', link: '/deploy' },
-      { text: '使用帮助', link: '/help' }
+      { text: '抓包教程', link: '/capture/ios' },
+      { text: '部署教程', link: '/deploy/server' },
+      { text: '使用帮助', link: '/help/bind' }
     ],
 
     sidebar: [

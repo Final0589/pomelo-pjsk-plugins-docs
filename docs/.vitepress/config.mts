@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '抓包教程', link: '/capture/ios' },
-      { text: '部署教程', link: '/deploy/server' },
+      { text: '部署教程', link: '/deploy/server.md' },
       { text: '使用帮助', link: '/help/bind' }
     ],
 
@@ -33,7 +33,8 @@ export default defineConfig({
       {
         text: '使用帮助',
         items: [
-          { text: '使用帮助', link: '/help/bind' }
+          { text: '绑定账号', link: '/help/bind' },
+
         ]
       }
     ]

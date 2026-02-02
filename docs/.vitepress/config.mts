@@ -8,17 +8,21 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
+      { text: '抓包教程', link: '/capture' },
       { text: '部署教程', link: '/deploy' },
       { text: '使用帮助', link: '/help' }
     ],
 
     sidebar: [
       {
-        text: '快速入门',
+        text: '抓包教程',
         items: [
-          { text: 'Markdown 示例', link: '/markdown-examples' },
-          { text: 'API 示例', link: '/api-examples' }
+          { text: 'IOS抓包教程', link: '/capture_ios' },
+          { text: 'IOS模块抓包教程', link: '/capture_module' },
+          { text: '安卓模拟器抓包教程', link: '/capture_simulator' }
+
         ]
+
       }
     ]
 

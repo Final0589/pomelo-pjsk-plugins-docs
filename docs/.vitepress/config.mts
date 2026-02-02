@@ -22,7 +22,19 @@ export default defineConfig({
           { text: '安卓模拟器抓包教程', link: '/capture_simulator' }
 
         ]
-
+      },
+      {
+        text: '部署教程',
+        items: [
+          { text: '部署到服务器', link: '/deploy_server' },
+          { text: '部署到本地', link: '/deploy_local' }
+        ]
+      },
+      {
+        text: '使用帮助',
+        items: [
+          { text: '使用帮助', link: '/help' }
+        ]
       }
     ]
 

@@ -2,7 +2,8 @@
 ::: info
 因安卓进行证书安装需要root权限，且目前手机root门槛较高，本教程介绍以日服为例如何在模拟器下操作
 :::
-## 程序准备(点击蓝色文字可跳转)
+## 程序准备
+(点击蓝色文字可跳转)
 - [mumu模拟器](https://mumu.163.com)
 ![mumu](img/mumu12.png)
 - [Reqable](https://reqable.com)(PC端与安卓端都需要安装)

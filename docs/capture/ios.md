@@ -10,7 +10,7 @@
 
 ![Reqable](img/reqable.png)
 
-安装成功后打开，同意用户协议，接下来会提示选择工作模式，为方便故选择`独立模式`
+安装成功后打开，同意用户协议，接下来会提示选择工作模式，为方便故选择`独立模式`，协同模式可见[安卓模拟器抓包](simulator.md)
 
 ![choose_workmode](img/choose_workmode.png)
 

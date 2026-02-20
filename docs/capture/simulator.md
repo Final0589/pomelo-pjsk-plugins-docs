@@ -2,6 +2,9 @@
 ::: info
 因安卓进行证书安装需要root权限，且目前手机root门槛较高，本教程介绍以日服为例如何在模拟器下操作
 :::
+:::warning
+国服无法通过模拟器检测，可以尝试通过mac版mumu模拟器或者Linux上的arm模拟模式绕过
+:::
 ## 程序准备
 (点击蓝色文字可跳转)
 - [mumu模拟器](https://mumu.163.com)
@@ -87,11 +90,40 @@
 
 
 
-## 登陆游戏账号（日服与国际服）
+## 通过引继码方式登陆游戏账号（日服与国际服）
 ### 原设备
-进入游戏后，点击
+进入游戏后，点击更多菜单的如图所示标志
+![switchdevice_01](img/switchdevice_01.png)
+选择```
+![switchdevice_02](img/switchdevice_02.png)
+![switchdevice_03](img/switchdevice_03.png)
+设置密码后，会提示你再次确认引继账号，确认无误后引继码即生成完毕
+![switchdevice_04](img/switchdevice_04.png)
+![switchdevice_04](img/switchdevice_05.png)
+
+::: info
+如果忘记引继码可以重复以上步骤重新生成，引继码只有最后一个生成的有效
+:::
+
+### 模拟器
+如果进入游戏出现如下画面且迟迟未变化时，点击右上角返回退出
+![google_play](img/g_play.png)
+进入游戏后，按照图上步骤进入引继界面
+![login_01](img/login_01.png)
+![login_02](img/login_02.png)
+
+进入如下界面时请输入之前原设备生成的引继码和设置的密码并点击`引き継ぎ`
+![login_03](img/login_03.png)
+![login_04](img/login_04.png)
+
+出现如下提示时就代表已经完成引继，如果要在原设备重新登录则像以上步骤重新引继即可
+![login_05](img/login_05.png)
 
 ## 抓取Suite
+打开电脑和模拟器的Reqable，按照如下操作启动代理
+![suite_01](img/suite_01.png)
+回到电脑端，按照如下操作过滤抓包信息，若除了`本机`没有任何设备则是模拟器没有正确连接到电脑，检查一下标签页是否切换到电脑，以及证书是否安装成功
+![suite_02](img/suite_02.png)
 
 ## 抓取MySekai
 

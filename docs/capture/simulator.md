@@ -84,7 +84,11 @@
 ![reqable_android_05](img/reqable_and_05.gif)
 
 ## 安装证书
+### 保存证书
+按如图步骤先切换到`调试`下方的电脑端连接，进入`证书管理`
+![install_cert_01](img/install_cert_01.png)
 
+![install_cert_02](img/install_cert_03.png)
 
 
 
@@ -94,9 +98,11 @@
 ### 原设备
 进入游戏后，点击更多菜单的如图所示标志
 ![switchdevice_01](img/switchdevice_01.png)
+
 选择```
 ![switchdevice_02](img/switchdevice_02.png)
 ![switchdevice_03](img/switchdevice_03.png)
+
 设置密码后，会提示你再次确认引继账号，确认无误后引继码即生成完毕
 ![switchdevice_04](img/switchdevice_04.png)
 ![switchdevice_04](img/switchdevice_05.png)
@@ -120,10 +126,31 @@
 ![login_05](img/login_05.png)
 
 ## 抓取Suite
+
 打开电脑和模拟器的Reqable，按照如下操作启动代理
+
 ![suite_01](img/suite_01.png)
+
 回到电脑端，按照如下操作过滤抓包信息，若除了`本机`没有任何设备则是模拟器没有正确连接到电脑，检查一下标签页是否切换到电脑，以及证书是否安装成功
+
 ![suite_02](img/suite_02.png)
+
+回到模拟器，进入游戏tip界面后即可回到电脑端查看是否安装成功
+
+![suite_03](img/suite_03.png)
+
+搜索`suite`关键词后，会出现一个结果，按照如下步骤来保存suite
+
+![suite_04](img/suite_04.png)
+
+点击保存按钮后选择需要保存的地方，这里是临时保存到桌面
+
+![suite_05](img/suite_05.png)
+
+保存成功后就直接上传到相应的查分工具了
+
+![suite_06](img/suite_06.png)
+
 
 ## 抓取MySekai
 

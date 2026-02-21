@@ -85,21 +85,49 @@
 
 ## 安装证书
 ### 保存证书
-按如图步骤先切换到`调试`下方的电脑端连接，进入`证书管理`
+按如图步骤先切换到`调试`下方的电脑端连接，进入`证书管理` -> `安装根证书到本机`
 ![install_cert_01](img/install_cert_01.png)
+![install_cert_02](img/install_cert_02.png)
 
-![install_cert_02](img/install_cert_03.png)
+点击证书名，选择完成，记下保存的文件名
+![install_cert_03](img/install_cert_03.png)
 
+### 复制证书
+请再次确认是否安装RE文件管理器
+![confirm](img/mumu_08.png)
 
+打开RE文件管理器，选择`存储` -> `授予权限`
+![install_cert_04](img/install_cert_04.png)
+![install_cert_05](img/install_cert_05.png)
 
+授予权限后，进入`存储` -> `Download`文件夹 -> `Reqable`文件夹，会发现之前保存的证书文件
+![install_cert_06](img/install_cert_06.png)
+![install_cert_07](img/install_cert_07.png)
 
+检查完毕后，切换到根目录，将根目录`挂载为可读写`，此时会申请root权限
+![install_cert_08](img/install_cert_08.png)
+
+如果未出现如下提示，可能是模拟器未开启root权限
+![install_cert_09](img/install_cert_09.png)
+
+授予完成后挂载为可读写会变成`挂载为只读`
+![install_cert_10](img/install_cert_10.png)
+
+之后按照如下路径寻找文件夹`/system/etc/security/cacerts`
+![install_cert_11](img/install_cert_11.gif)
+
+之后回到Reqable文件夹，长按根证书，选择右上角的第一个复制按钮，切换到cacerts文件夹，点击右下角的复制按钮
+![install_cert_12](img/install_cert_12.gif)
+
+返回Reqable，当出现证书已安装就代表安装成功
+![install_cert_13](img/install_cert_13.png)
 
 ## 通过引继码方式登陆游戏账号（日服与国际服）
 ### 原设备
 进入游戏后，点击更多菜单的如图所示标志
 ![switchdevice_01](img/switchdevice_01.png)
 
-选择```
+选择`バスワードで引き継ぎ`
 ![switchdevice_02](img/switchdevice_02.png)
 ![switchdevice_03](img/switchdevice_03.png)
 

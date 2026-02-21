@@ -39,12 +39,12 @@ export default defineConfig({
         text: '使用帮助',
         items: [
           { text: '绑定账号', link: '/help/bind' },
+          { text: '个人信息', link: '/help/profile'},
           { text: '查询卡面', link: '/help/card'},
           { text: '查询铺面', link: '/help/chart'},
           { text: '打胶(下载纸膜)', link: '/help/dajiao'},
           { text: '查询活动', link: '/help/event'},
           { text: '查询曲目', link: '/help/music'},
-          { text: '个人信息', link: '/help/profile'},
           { text: 'sk榜线', link: '/help/sk'},
           { text: '表情包生成', link: '/help/stamp'},
 

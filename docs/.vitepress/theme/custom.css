@@ -1,14 +1,29 @@
-/* .vitepress/theme/custom.css */
+/* 强制 Hero 部分上下排列并居中 */
 .VPHero.has-image .container {
   display: flex;
-  flex-direction: column !important;
-  align-items: center !important;
-  text-align: center !important;
+  flex-direction: column !important; /* 强制纵向排列 */
+  align-items: center !important;    /* 水平居中 */
+  text-align: center !important;     /* 文字居中 */
 }
 
-.VPHero.has-image .main { order: 2; }
-.VPHero.has-image .image { order: 1; margin-bottom: 20px !important; }
+/* 让图片排在文字上方 */
+.VPHero.has-image .main {
+  order: 2; /* 文字和按钮排在后面 */
+}
 
+.VPHero.has-image .image {
+  order: 1; /* 图片排在最前面 */
+  margin-bottom: 24px; /* 图片和文字的间距 */
+}
+
+/* 适配大屏幕，取消左右布局 */
 @media (min-width: 960px) {
-  .VPHero.has-image .container { flex-direction: column !important; }
+  .VPHero.has-image .container {
+    flex-direction: column !important;
+  }
+
+  .VPHero .image {
+    display: flex;
+    justify-content: center;
+  }
 }

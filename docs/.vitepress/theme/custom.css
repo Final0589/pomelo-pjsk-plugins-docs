@@ -1,29 +1,32 @@
-/* 强制 Hero 部分上下排列并居中 */
+/* 强制所有屏幕下都垂直居中 */
 .VPHero.has-image .container {
-  display: flex;
-  flex-direction: column !important; /* 强制纵向排列 */
-  align-items: center !important;    /* 水平居中 */
+  display: flex !important;
+  flex-direction: column !important; /* 强制纵向 */
+  align-items: center !important;    /* 强制水平居中 */
   text-align: center !important;     /* 文字居中 */
+  max-width: 100% !important;        /* 防止大屏下靠左 */
 }
 
-/* 让图片排在文字上方 */
+/* 确保文字部分在图片下方 */
 .VPHero.has-image .main {
-  order: 2; /* 文字和按钮排在后面 */
+  order: 2 !important;
+  margin: 0 auto !important;
 }
 
+/* 确保图片部分在最上方 */
 .VPHero.has-image .image {
-  order: 1; /* 图片排在最前面 */
-  margin-bottom: 24px; /* 图片和文字的间距 */
+  order: 1 !important;
+  margin: 0 0 32px 0 !important; /* 给图片下方留点间距 */
+  display: flex !important;
+  justify-content: center !important;
 }
 
-/* 适配大屏幕，取消左右布局 */
-@media (min-width: 960px) {
-  .VPHero.has-image .container {
-    flex-direction: column !important;
-  }
+/* 调整图片容器，防止偏向一侧 */
+.VPHero.has-image .image-container {
+  margin: 0 auto !important;
+}
 
-  .VPHero .image {
-    display: flex;
-    justify-content: center;
-  }
+/* 如果按钮还是歪的，强制按钮组居中 */
+.VPHero .actions {
+  justify-content: center !important;
 }

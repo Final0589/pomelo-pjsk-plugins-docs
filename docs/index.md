@@ -3,11 +3,10 @@ layout: home
 
 hero:
   image:
-    src: /logo.png
-    alt: 插件 Logo
+    src: logo.png
   
   name: "插件帮助文档"
-  tagline: "がんばれ がんばれ ねねちゃん"
+  tagline: "がんばれ がんばれ ねねちゃん～～"
   
   actions:
     - theme: brand

@@ -1,3 +1,4 @@
+/* .vitepress/theme/custom.css */
 .VPHero.has-image .container {
   display: flex;
   flex-direction: column !important;
@@ -5,22 +6,9 @@
   text-align: center !important;
 }
 
-.VPHero.has-image .main {
-  order: 2;
-}
-
-.VPHero.has-image .image {
-  order: 1;
-  margin-bottom: 24px;
-}
+.VPHero.has-image .main { order: 2; }
+.VPHero.has-image .image { order: 1; margin-bottom: 20px !important; }
 
 @media (min-width: 960px) {
-  .VPHero.has-image .container {
-    flex-direction: column !important;
-  }
-
-  .VPHero .image {
-    display: flex;
-    justify-content: center;
-  }
+  .VPHero.has-image .container { flex-direction: column !important; }
 }

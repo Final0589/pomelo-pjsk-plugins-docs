@@ -3,7 +3,7 @@ layout: home
 
 hero:
   image:
-    src: /logo.png
+    src: /logo.png  
   
   name: "插件帮助文档"
   tagline: "がんばれ がんばれ ねねちゃん～～"

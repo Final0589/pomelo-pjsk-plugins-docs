@@ -31,6 +31,7 @@ export default defineConfig({
       {
         text: '部署教程',
         items: [
+          { text: '配置插件', link: '/deploy/configs' },
           { text: '部署到服务器(Linux系统)', link: '/deploy/server' },
           { text: '部署到计算机(Windows系统)', link: '/deploy/local' }
         ]
